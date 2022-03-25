@@ -1,8 +1,8 @@
 This module starts a server at 8000 on localhost which exposes the below endpoints
 
-/redisup -> requests sent to this endpoint will be proxied to a localhost redis which is up
-/redisdown -> requests sent to this endpoint will be proxied to a localhost redis which is down
-/redisslow -> requests sent to this endpoint will be proxied to a localhost redis which has a slow response
+/redisup -> requests sent to this endpoint will be proxied to a localhost redis which is up\n
+/redisdown -> requests sent to this endpoint will be proxied to a localhost redis which is down\n
+/redisslow -> requests sent to this endpoint will be proxied to a localhost redis which has a slow response\n
 
 
 To simulate a redis which is down or slow, we use toxiproxy package which can simulate connection down and add latencies to the request
