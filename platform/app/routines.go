@@ -165,7 +165,7 @@ func Serve() {
 
 	//toxiproxy for git and redis to simulate up, down and slow responses
 	Stub.ToxiClient = toxiproxy.NewClient("localhost:8474")
-	Stub.ToxiProxy, _ = Stub.ToxiClient.CreateProxy("gituptest", "", "github.com:80")
+	Stub.ToxiProxy, _ = Stub.ToxiClient.CreateProxy("gittest", "", "github.com")
 	Stub.RedisProxy, _ = Stub.ToxiClient.CreateProxy("redis", "localhost:7379", "localhost:6379")
 
 	fmt.Println("in serving2", Stub)

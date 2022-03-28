@@ -1,3 +1,10 @@
+Prerequisites:
+
+Install toxiproxy on the system where you are running the platform
+https://pkg.go.dev/github.com/shopify/toxiproxy#readme-1-installing-toxiproxy
+
+Description:
+
 This module starts a server at 8000 on localhost which exposes the below endpoints
 
 /redisup -> requests sent to this endpoint will be proxied to a localhost redis which is up
