@@ -24,7 +24,8 @@ To simulate a redis which is down or slow, we use toxiproxy package which can si
 
 All the endpoints are instrumented via the New Relic Telemetry Go SDK.
 
-The below ENV variables must be set up prior to starting the server.
+
+The below ENV variables must be set up prior to starting the server. You can get these once you register for a free account at New Relic.
 
 NEW_RELIC_EVENT_URL
 
